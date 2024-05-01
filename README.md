@@ -28,10 +28,10 @@ You can start by cloning our repository and following the steps below.
 
 Then, to obtain model responses, run:
 ```
-helm-run -c src/helm/benchmark/presentation/run_specs_opinions_qa_openai_default.conf --max-eval-instances 500 --suite $SUITE
-helm-run -c src/helm/benchmark/presentation/run_specs_opinions_qa_ai21_default.conf --max-eval-instances 500 --suite $SUITE
-helm-run -c src/helm/benchmark/presentation/run_specs_opinions_qa_openai_steer.conf --max-eval-instances 50000 --suite $SUITE
-helm-run -c src/helm/benchmark/presentation/run_specs_opinions_qa_ai21_steer.conf --max-eval-instances 50000 --suite $SUITE
+helm-run -c src/helm/benchmark/presentation/run_entries_opinions_qa_openai_default.conf --max-eval-instances 500 --suite $SUITE
+helm-run -c src/helm/benchmark/presentation/run_entries_opinions_qa_ai21_default.conf --max-eval-instances 500 --suite $SUITE
+helm-run -c src/helm/benchmark/presentation/run_entries_opinions_qa_openai_steer.conf --max-eval-instances 50000 --suite $SUITE
+helm-run -c src/helm/benchmark/presentation/run_entries_opinions_qa_ai21_steer.conf --max-eval-instances 50000 --suite $SUITE
 ```
 
 # Maintainers
